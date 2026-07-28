@@ -1,0 +1,8 @@
+
+stages:
+  - test
+
+simple_test:
+  stage: test
+  script:
+    - echo "Pipeline successfully formed!"
